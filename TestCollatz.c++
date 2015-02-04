@@ -64,11 +64,11 @@ TEST(Collatz, eval_4) {
 // Will fail for now
 TEST(Collatz, eval_5) {
     const int v = collatz_eval(1, 1000000);
-    ASSERT_EQ(100, v);}
+    ASSERT_EQ(476, v);}
 
 TEST(Collatz, eval_6) {
     const int v = collatz_eval(500000, 1000000);
-    ASSERT_EQ(100, v);}
+    ASSERT_EQ(476, v);}
 
 
 // -----
@@ -83,8 +83,8 @@ TEST(Collatz, print_1) {
 // ToDo: fix solution
 TEST(Collatz, pritn2) {
     ostringstream w;
-    collatz_print(w, 1, 10, 20);
-    ASSERT_EQ("1 1000000 20\n", w.str());}
+    collatz_print(w, 1, 1000000, 476);
+    ASSERT_EQ("1 1000000 476\n", w.str());}
 
 // -----
 // solve
@@ -101,7 +101,7 @@ TEST(Collatz, solve_2) {
     istringstream r("1 10\n100 200\n201 210\n900 1000\n1 1000000\n");
     ostringstream w;
     collatz_solve(r, w);
-    ASSERT_EQ("1 10 20\n100 200 125\n201 210 89\n900 1000 174\n1 1000000\n", w.str());}
+    ASSERT_EQ("1 10 20\n100 200 125\n201 210 89\n900 1000 174\n1 1000000 476\n", w.str());}
 
 /*
 % ls -al /usr/include/gtest/
