@@ -1,1 +1,236 @@
-(output of git log)
+commit 353600323293ab48583bd6c543b660db1dd2e8ed
+Author: njk464 <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:40:49 2015 -0600
+
+    Cleaning up
+
+commit bbbb06648a619ca052e34828f0041c23e1ae862d
+Merge: 0edba0b bbad055
+Author: njk464 <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:35:47 2015 -0600
+
+    Merge branch 'master' of https://github.com/njk464/cs371p-collatz
+    
+    "Merge not necessary"
+
+commit bbad0551a78aec15cacd693a2f3c082d273796af
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:28:58 2015 -0600
+
+    Delete a.out
+
+commit b31be9d0687a39de7acb1d77430d4fcd0407ad11
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:28:47 2015 -0600
+
+    Delete .nfs0000000002a1e48e000005b4
+
+commit 00b664dd9cb6789945981d7f03a81981d15e5c75
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:28:43 2015 -0600
+
+    Delete .nfs0000000002a1e48a000005b3
+
+commit c65bfb616b3722481b2f5a007a731f0529a40d89
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:28:39 2015 -0600
+
+    Delete .nfs0000000002a1e489000005b2
+
+commit 79076b4a9bee3c836b8191076f40e4b822c31d93
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:28:36 2015 -0600
+
+    Delete .nfs0000000002a1e487000005b1
+
+commit 80fb729b4a67717d56470a055489e2b88d1d11c0
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:28:32 2015 -0600
+
+    Delete .nfs0000000002a1e486000005b0
+
+commit f04228c6cd278610c93eec9280a14f27960817fa
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:28:28 2015 -0600
+
+    Delete .nfs0000000002a1e485000005af
+
+commit 2d5f7a4fd8d541947b681384eca2bc60ad5f1d88
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:28:24 2015 -0600
+
+    Delete .nfs0000000002a1e484000005ae
+
+commit 3fdb263d6e16f253d49dbca7f9cb98ced2c654fa
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:28:20 2015 -0600
+
+    Delete .nfs0000000002a1e483000005ad
+
+commit 7a310cfa2184a5e4817d39990a47ba55dce2bbfd
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:28:16 2015 -0600
+
+    Delete .nfs0000000002a1e482000005ac
+
+commit e55148036ffe21fd56749048a306d753cb53a675
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:28:10 2015 -0600
+
+    Deleted file
+
+commit 32b169de8e36271819cb3567d10e4fe2f968f482
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:27:48 2015 -0600
+
+    Delete .nfs0000000001522be8000005b6
+
+commit e2b75e1c2fabaa8fd826121091415a0e856d7873
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:27:43 2015 -0600
+
+    Delete .nfs0000000001522bd9000005b5
+
+commit 8d42d72561aa7c9b01a7f0aa95527358c477c54a
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:27:39 2015 -0600
+
+    Delete .nfs000000000084e15e000005ba
+
+commit 65924fd69166531427a2291ab4c3dedd0f4f0104
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:27:35 2015 -0600
+
+    Delete .nfs000000000084e15d000005b9
+
+commit e6fbe6998cccb64b2698ca581601e01dcdd09077
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:27:29 2015 -0600
+
+    Delete .nfs000000000084e15c000005b8
+
+commit 0edba0bb31f804b5ca582f2d1c241a16b99c3e2d
+Author: njk464 <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 21:25:10 2015 -0600
+
+    Added doxygen
+
+commit 826db16702478c5f1737229f0a5b33ec1a5eb9bd
+Author: njk464 <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 20:33:05 2015 -0600
+
+    added doxygen html/
+
+commit 81987c2d057c084f34c4bb7440323eef0b7e41bb
+Author: njk464 <nick.kantor@utexas.edu>
+Date:   Fri Feb 6 20:21:43 2015 -0600
+
+    The code now passes sphere with a cache
+
+commit bb8c5e480f676a54575c732374d3d0c4ef1d62eb
+Author: njk464 <nick.kantor@utexas.edu>
+Date:   Thu Feb 5 18:34:28 2015 -0600
+
+     fixed #2, fixed #3, fixed #4, Created 100 lines of tests.
+
+commit cea76dc409cfc1422849d803bfc51724306cd277
+Author: njk464 <nick.kantor@utexas.edu>
+Date:   Wed Feb 4 15:46:38 2015 -0600
+
+    fixed #1, #2, #3, #4, #5, #6, #7 , #8, #9, #10, #11 and now the code is accepted by sphere.
+
+commit 5e1b237e975fc798fd22deaf68c0a388aa41f5c0
+Author: njk464 <nick.kantor@utexas.edu>
+Date:   Wed Feb 4 01:58:27 2015 -0600
+
+    fixed #14, made a simple version of collatz that passes all tests
+
+commit 123a6353d96cf14b3c5c061145b3ec3e43e8e2e5
+Author: njk464 <nick.kantor@utexas.edu>
+Date:   Wed Feb 4 01:06:19 2015 -0600
+
+    Created more tests that test corner cases.
+
+commit eeb826077df54005e114adb52f09b4336618dc86
+Author: njk464 <nick.kantor@utexas.edu>
+Date:   Wed Feb 4 00:33:19 2015 -0600
+
+    fixed #13, tests now fail when they are supposed to.
+
+commit 919a30efaf83d99122f3ae7e44d0846537703346
+Author: njk464 <nick.kantor@utexas.edu>
+Date:   Wed Feb 4 00:18:27 2015 -0600
+
+    RunCollatz and TestCollatz both pass fake tests.
+
+commit 2dc81396877174ec970910ebe5f0a4a65337aab0
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Tue Feb 3 23:50:39 2015 -0600
+
+    Create makefile
+
+commit 649c24f3b970413d912af3e7b2edb480faec1b86
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Tue Feb 3 23:50:04 2015 -0600
+
+    Create .gitignore
+
+commit 91be2b54e34a1379647f67d7dd032c1099dfc9d9
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Tue Feb 3 23:49:00 2015 -0600
+
+    Create SphereCollatz.c++
+
+commit 0b38a56c417ce10dbad261b29d32ae528ab13eab
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Tue Feb 3 23:48:32 2015 -0600
+
+    Create Collatz.log
+
+commit 336346a344113f733a5bb37bb02fa1569c8de997
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Tue Feb 3 23:45:13 2015 -0600
+
+    Create TestCollatz.out
+
+commit f26fdb19ec8bdd647e0ad226e66440349085d19a
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Tue Feb 3 23:43:46 2015 -0600
+
+    Create TestCollatz.c++
+
+commit ab906dc5f0535b7be51b506c257ae719e5fd11bd
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Tue Feb 3 23:41:02 2015 -0600
+
+    Create RunCollatz.out
+
+commit a2d2504a5cc86539e7419a3e6b7db1f33f6f93a6
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Tue Feb 3 23:40:43 2015 -0600
+
+    Create RunCollatz.in
+
+commit 819e27d7f0d83e4ea0e87c877af4261a2bab552c
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Tue Feb 3 23:38:40 2015 -0600
+
+    Create RunCollatz.c++
+
+commit 281e246a45a4636199a0a760e87f86011f217946
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Tue Feb 3 23:37:57 2015 -0600
+
+    Create Collatz.c++
+
+commit f5be848b6ae29860295139f34a9f3bfcb76cb650
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Tue Feb 3 23:35:51 2015 -0600
+
+    Create Collatz.h
+
+commit ce3c5e38784a35db65bf237cd21bc06fa58ec258
+Author: Nick Kantor <nick.kantor@utexas.edu>
+Date:   Tue Feb 3 22:44:48 2015 -0600
+
+    Initial commit
