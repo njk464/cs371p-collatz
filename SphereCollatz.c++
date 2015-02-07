@@ -61,33 +61,7 @@ int collatz_eval (int i, int j) {
     }
     //cout << "return" << endl;
     return max;
-   /* int max = 1;
-    //assert ( i > 0);
-    //assert ( j > 0);
-    //assert ( i < 1000000);
-    //assert ( j < 1000000);
- 	if ( j < i )
- 	{
- 		j = j ^ i;
- 		i = j ^ i;
- 		j = j ^ i;
- 	}
-    for (; i < j;i++)
-    {
-		int n = i;
-		int c = 1;
-    	while (n > 1) {
-            if ((n % 2) == 0)
-                n = n/2;
-            else
-                n = 3*n + 1;
-        ++c;}
-		//assert ( c != 0);
-  		if ( c > max)
-	    	max = c;
-    }
-    //assert (max != 0);
-    return max;*/}
+   }
 
 
 // -------------:

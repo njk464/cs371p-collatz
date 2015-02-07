@@ -17,7 +17,7 @@
 #include "Collatz.h"
 
 using namespace std;
-
+int cache[999999];
 // ------------
 // collatz_read
 // ------------
@@ -33,30 +33,60 @@ pair<int, int> collatz_read (const string& s) {
 // collatz_eval
 // ------------
 
+// ------------
+// collatz_eval
+// ------------
+
 int collatz_eval (int i, int j) {
     int max = 1;
-    assert ( i > 0);
-    assert ( j > 0);
-    assert ( i <= j );
-    assert ( i <= 1000000);
-    assert ( j <= 1000000);
- 
-    for (; i < j;i++)
+    cache[0] = 1;
+    int y = 1;
+    for (;y < 999999; y++)
     {
-	int n = i;
-	int c = 1;
-    	while (n > 1) {
-            if ((n % 2) == 0)
-                n = n/2;
-            else
-                n = 3*n + 1;
-        ++c;}
-	assert ( c != 0);
-  	if ( c > max)
-	    max = c;
+        cache[y] = 0;
     }
-    assert (max != 0);
-    return max;}
+    if (j < i)
+    {
+        j = j ^ i;
+        i = j ^ i;
+        j = j ^ i;
+    }
+    for (; j >= (j + i)/2 && j > 1; j--)
+    {
+        if ( cache[j-1] == 0)
+            collatz_recur (j);
+        if (cache[j-1] > max)
+            max = cache[j-1];
+    }
+    //cout << "return" << endl;
+    return max;
+   }
+
+
+// -------------:
+// collatz_recur
+// -------------
+
+int collatz_recur (int n)
+{
+    if (n < 1)
+        return 0;
+    if (n > 999999)
+    {
+        if (n %2 == 0)
+            return 1 + collatz_recur (n/2);
+        else
+            return 1 + collatz_recur (n*3+1);
+    }
+    if(cache[n-1] == 0)
+    {
+        if (n %2 == 0)
+            cache[n-1] = 1 + collatz_recur (n/2);
+        else
+            cache[n-1] = 1 + collatz_recur (n*3 + 1);
+    }
+    return cache[n-1];
+}
 
 // -------------:
 // collatz_print

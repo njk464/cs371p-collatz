@@ -17,6 +17,7 @@
 
 using namespace std;
 
+
 // ------------
 // collatz_read
 // ------------
@@ -38,6 +39,16 @@ pair<int, int> collatz_read (const string& s);
  * @return the max cycle length of the range [i, j]
  */
 int collatz_eval (int i, int j);
+
+// ------------
+// collatz_recur
+// ------------
+
+/**
+ * @param n the value that will be used to find the cycle length
+ * @return the cycle length of n
+ */
+int collatz_recur (int n);
 
 // -------------
 // collatz_print
